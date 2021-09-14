@@ -1,9 +1,11 @@
-function App() {
+import React, { useState, useEffect } from "react";
+import RouterWrap from "./routes/routerWrap";
+import "./App.css";
+
+const App = () => {
   return (
     <div className="App">
-      <header className="App-header">
-        <p>我的博客</p>
-      </header>
+      <RouterWrap />
     </div>
   );
 }
